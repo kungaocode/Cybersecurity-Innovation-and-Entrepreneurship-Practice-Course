@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "segwit_marker": "00",
+  "segwit_flag": "01",
+  "input_count": 1,
+  "inputs": [
+    {
+      "prev_txid": "0000000000000000000000000000000000000000000000000000000000000000",
+      "prev_output_index": 4294967295,
+      "scriptSig_len": 50,
+      "scriptSig": "03c4724d000428bf5d6a04c92cc3370c3efdd86900000000000000000a636b706f6f6c0e2f6d696e65642062792072736b2f",
+      "scriptSig_decoded": {
+        "hex": "03c4724d000428bf5d6a04c92cc3370c3efdd86900000000000000000a636b706f6f6c0e2f6d696e65642062792072736b2f",
+        "type": "generic",
+        "description": "Generic script (50 bytes)",
+        "addresses": [],
+        "asm": "OP_PUSHDATA3 OP_0 OP_PUSHDATA4 OP_PUSHDATA4 OP_PUSHDATA12 OP_PUSHDATA10 OP_UNKNOWN_6e OP_UNKNOWN_65 OP_UNKNOWN_64 OP_PUSHDATA32"
+      },
+      "sequence": 4294967295
+    }
+  ],
+  "output_count": 3,
+  "outputs": [
+    {
+      "amount_satoshis": 16864,
+      "scriptPubKey_len": 25,
+      "scriptPubKey": "76a914ec2f9ffaba0d68ea6bd7c25cedfe2ae710938e6088ac",
+      "scriptPubKey_decoded": {
+        "hex": "76a914ec2f9ffaba0d68ea6bd7c25cedfe2ae710938e6088ac",
+        "type": "P2PKH",
+        "description": "Pay-to-Public-Key-Hash → address n33npN2oRNJFFpdoxkrm2CVyZAfRGFxALt",
+        "addresses": [
+          "n33npN2oRNJFFpdoxkrm2CVyZAfRGFxALt"
+        ],
+        "asm": "OP_DUP OP_HASH160 OP_WITHIN OP_EQUALVERIFY OP_CHECKSIG"
+      }
+    },
+    {
+      "amount_satoshis": 0,
+      "scriptPubKey_len": 38,
+      "scriptPubKey": "6a24aa21a9ed20cc17ea84ae68130f105cfacd76cdbf2eeb82fee76468383d013c8a0a61903d",
+      "scriptPubKey_decoded": {
+        "hex": "6a24aa21a9ed20cc17ea84ae68130f105cfacd76cdbf2eeb82fee76468383d013c8a0a61903d",
+        "type": "OP_RETURN",
+        "description": "Provably unspendable output (data: aa21a9ed20cc17ea84ae68130f105cfacd76cdbf2eeb82fee76468383d013c8a0a61903d)",
+        "addresses": [],
+        "asm": "OP_RETURN OP_PUSHDATA36"
+      }
+    },
+    {
+      "amount_satoshis": 0,
+      "scriptPubKey_len": 42,
+      "scriptPubKey": "6a52534b424c4f434b3a8dc755b6080a3470629793e1daeb4ed74495e6de63e164a4f5518316007838ec",
+      "scriptPubKey_decoded": {
+        "hex": "6a52534b424c4f434b3a8dc755b6080a3470629793e1daeb4ed74495e6de63e164a4f5518316007838ec",
+        "type": "OP_RETURN",
+        "description": "Provably unspendable output (data: 424c4f434b3a8dc755b6080a3470629793e1daeb4ed74495e6de63e164a4f5518316007838ec)",
+        "addresses": [],
+        "asm": "OP_RETURN OP_2 OP_3 OP_PUSHDATA75"
+      }
+    }
+  ],
+  "witness": [
+    {
+      "index": 0,
+      "stack_items": 1,
+      "items": [
+        {
+          "length": 32,
+          "data": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "locktime": 0,
+  "computed_txid": "782bf6ef72d903eb94f3f370c425c31cd7e6d1e836d61b90495e8a08a3db884f"
+}

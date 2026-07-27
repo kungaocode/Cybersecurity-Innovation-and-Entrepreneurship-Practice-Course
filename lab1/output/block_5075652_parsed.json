@@ -1,0 +1,131 @@
+{
+  "version": 536870912,
+  "previous_block_hash": "0000000028be48a8837e21ba6351cb11a657903b4490a95b737a8de591c34703",
+  "merkle_root": "1a5016d5642e174cd8ca0b29cd8a92c2a7b4e6e3cc755ddabbb6eb24cc95566f",
+  "timestamp": 1784528680,
+  "bits": 486604799,
+  "nonce": 1057568129,
+  "_header_hex": "000000200347c391e58d7a735ba990443b9057a611cb5163ba217e83a848be28000000006f5695cc24ebb6bbda5d75cce3e6b4a7c2928acd290bcad84c172e64d516501a28bf5d6affff001d8135093f",
+  "_computed_block_hash": "00000000847711795bfa4f8857d2fd15c76767d13cb22bc7b8a9a10676d80409",
+  "transaction_count": 29,
+  "transactions": [
+    {
+      "txid": "",
+      "_offset": 81
+    },
+    {
+      "txid": "",
+      "_offset": 350
+    },
+    {
+      "txid": "",
+      "_offset": 576
+    },
+    {
+      "txid": "",
+      "_offset": 770
+    },
+    {
+      "txid": "",
+      "_offset": 962
+    },
+    {
+      "txid": "",
+      "_offset": 1481
+    },
+    {
+      "txid": "",
+      "_offset": 2001
+    },
+    {
+      "txid": "",
+      "_offset": 2301
+    },
+    {
+      "txid": "",
+      "_offset": 2684
+    },
+    {
+      "txid": "",
+      "_offset": 3181
+    },
+    {
+      "txid": "",
+      "_offset": 4324
+    },
+    {
+      "txid": "",
+      "_offset": 6963
+    },
+    {
+      "txid": "",
+      "_offset": 7185
+    },
+    {
+      "txid": "",
+      "_offset": 7438
+    },
+    {
+      "txid": "",
+      "_offset": 7642
+    },
+    {
+      "txid": "",
+      "_offset": 7823
+    },
+    {
+      "txid": "",
+      "_offset": 8004
+    },
+    {
+      "txid": "",
+      "_offset": 8185
+    },
+    {
+      "txid": "",
+      "_offset": 8407
+    },
+    {
+      "txid": "",
+      "_offset": 8629
+    },
+    {
+      "txid": "",
+      "_offset": 8851
+    },
+    {
+      "txid": "",
+      "_offset": 9073
+    },
+    {
+      "txid": "",
+      "_offset": 9295
+    },
+    {
+      "txid": "",
+      "_offset": 9517
+    },
+    {
+      "txid": "",
+      "_offset": 9739
+    },
+    {
+      "txid": "",
+      "_offset": 9961
+    },
+    {
+      "txid": "",
+      "_offset": 10189
+    },
+    {
+      "txid": "",
+      "_offset": 10434
+    },
+    {
+      "txid": "",
+      "_offset": 10659
+    }
+  ],
+  "block_height": 5075652,
+  "expected_block_hash": "00000000847711795bfa4f8857d2fd15c76767d13cb22bc7b8a9a10676d80409"
+}

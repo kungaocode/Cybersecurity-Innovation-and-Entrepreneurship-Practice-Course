@@ -1,0 +1,335 @@
+{
+  "version": 536870916,
+  "previous_block_hash": "00000000a1a20e7c83b128bf17ac1c2182800da74a80009ff45d435a607c6099",
+  "merkle_root": "649a262532aba967c857789c1c7f4a3b168b6cfde934294ca5fa8a80d021113f",
+  "timestamp": 1784538370,
+  "bits": 486604799,
+  "nonce": 1830632209,
+  "_header_hex": "0400002099607c605a435df49f00804aa70d8082211cac17bf28b1837c0ea2a1000000003f1121d0808afaa54c2934e9fd6c8b163b4a7f1c9c7857c867a9ab3225269a6402e55d6affff001d113b1d6d",
+  "_computed_block_hash": "00000000010472312f1bf22182f84008ed54aed3a63609c97ccba1dd936f03c9",
+  "transaction_count": 80,
+  "transactions": [
+    {
+      "txid": "",
+      "_offset": 81
+    },
+    {
+      "txid": "",
+      "_offset": 287
+    },
+    {
+      "txid": "",
+      "_offset": 510
+    },
+    {
+      "txid": "",
+      "_offset": 701
+    },
+    {
+      "txid": "",
+      "_offset": 892
+    },
+    {
+      "txid": "",
+      "_offset": 1114
+    },
+    {
+      "txid": "",
+      "_offset": 1336
+    },
+    {
+      "txid": "",
+      "_offset": 1635
+    },
+    {
+      "txid": "",
+      "_offset": 2154
+    },
+    {
+      "txid": "",
+      "_offset": 2525
+    },
+    {
+      "txid": "",
+      "_offset": 2930
+    },
+    {
+      "txid": "",
+      "_offset": 3152
+    },
+    {
+      "txid": "",
+      "_offset": 3374
+    },
+    {
+      "txid": "",
+      "_offset": 3596
+    },
+    {
+      "txid": "",
+      "_offset": 3789
+    },
+    {
+      "txid": "",
+      "_offset": 4286
+    },
+    {
+      "txid": "",
+      "_offset": 4783
+    },
+    {
+      "txid": "",
+      "_offset": 7422
+    },
+    {
+      "txid": "",
+      "_offset": 8396
+    },
+    {
+      "txid": "",
+      "_offset": 8618
+    },
+    {
+      "txid": "",
+      "_offset": 8840
+    },
+    {
+      "txid": "",
+      "_offset": 9062
+    },
+    {
+      "txid": "",
+      "_offset": 9285
+    },
+    {
+      "txid": "",
+      "_offset": 9508
+    },
+    {
+      "txid": "",
+      "_offset": 9731
+    },
+    {
+      "txid": "",
+      "_offset": 9953
+    },
+    {
+      "txid": "",
+      "_offset": 10176
+    },
+    {
+      "txid": "",
+      "_offset": 10399
+    },
+    {
+      "txid": "",
+      "_offset": 10622
+    },
+    {
+      "txid": "",
+      "_offset": 10845
+    },
+    {
+      "txid": "",
+      "_offset": 11068
+    },
+    {
+      "txid": "",
+      "_offset": 11291
+    },
+    {
+      "txid": "",
+      "_offset": 11513
+    },
+    {
+      "txid": "",
+      "_offset": 11735
+    },
+    {
+      "txid": "",
+      "_offset": 11958
+    },
+    {
+      "txid": "",
+      "_offset": 12181
+    },
+    {
+      "txid": "",
+      "_offset": 12404
+    },
+    {
+      "txid": "",
+      "_offset": 12627
+    },
+    {
+      "txid": "",
+      "_offset": 12849
+    },
+    {
+      "txid": "",
+      "_offset": 13072
+    },
+    {
+      "txid": "",
+      "_offset": 13294
+    },
+    {
+      "txid": "",
+      "_offset": 13517
+    },
+    {
+      "txid": "",
+      "_offset": 13739
+    },
+    {
+      "txid": "",
+      "_offset": 13961
+    },
+    {
+      "txid": "",
+      "_offset": 14183
+    },
+    {
+      "txid": "",
+      "_offset": 14406
+    },
+    {
+      "txid": "",
+      "_offset": 14628
+    },
+    {
+      "txid": "",
+      "_offset": 14851
+    },
+    {
+      "txid": "",
+      "_offset": 15073
+    },
+    {
+      "txid": "",
+      "_offset": 15295
+    },
+    {
+      "txid": "",
+      "_offset": 15517
+    },
+    {
+      "txid": "",
+      "_offset": 15739
+    },
+    {
+      "txid": "",
+      "_offset": 15961
+    },
+    {
+      "txid": "",
+      "_offset": 16183
+    },
+    {
+      "txid": "",
+      "_offset": 16406
+    },
+    {
+      "txid": "",
+      "_offset": 16629
+    },
+    {
+      "txid": "",
+      "_offset": 16852
+    },
+    {
+      "txid": "",
+      "_offset": 17075
+    },
+    {
+      "txid": "",
+      "_offset": 17298
+    },
+    {
+      "txid": "",
+      "_offset": 17521
+    },
+    {
+      "txid": "",
+      "_offset": 17928
+    },
+    {
+      "txid": "",
+      "_offset": 18738
+    },
+    {
+      "txid": "",
+      "_offset": 18960
+    },
+    {
+      "txid": "",
+      "_offset": 19331
+    },
+    {
+      "txid": "",
+      "_offset": 19523
+    },
+    {
+      "txid": "",
+      "_offset": 19746
+    },
+    {
+      "txid": "",
+      "_offset": 19968
+    },
+    {
+      "txid": "",
+      "_offset": 20190
+    },
+    {
+      "txid": "",
+      "_offset": 20412
+    },
+    {
+      "txid": "",
+      "_offset": 20634
+    },
+    {
+      "txid": "",
+      "_offset": 20856
+    },
+    {
+      "txid": "",
+      "_offset": 21082
+    },
+    {
+      "txid": "",
+      "_offset": 21307
+    },
+    {
+      "txid": "",
+      "_offset": 21533
+    },
+    {
+      "txid": "",
+      "_offset": 21757
+    },
+    {
+      "txid": "",
+      "_offset": 21982
+    },
+    {
+      "txid": "",
+      "_offset": 22204
+    },
+    {
+      "txid": "",
+      "_offset": 22430
+    },
+    {
+      "txid": "",
+      "_offset": 22656
+    },
+    {
+      "txid": "",
+      "_offset": 22878
+    }
+  ],
+  "block_height": 5075660,
+  "expected_block_hash": "00000000010472312f1bf22182f84008ed54aed3a63609c97ccba1dd936f03c9"
+}

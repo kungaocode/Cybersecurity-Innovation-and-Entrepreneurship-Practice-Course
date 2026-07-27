@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "segwit_marker": "00",
+  "segwit_flag": "01",
+  "input_count": 1,
+  "inputs": [
+    {
+      "prev_txid": "34e5a3f0f486ed846d78f09bd4adc47bd492c0caddc390fc7fc14c3df98037a1",
+      "prev_output_index": 1,
+      "scriptSig_len": 0,
+      "scriptSig": "",
+      "scriptSig_decoded": {
+        "hex": "",
+        "type": "empty",
+        "description": "(empty script)",
+        "addresses": [],
+        "asm": ""
+      },
+      "sequence": 4294967294
+    }
+  ],
+  "output_count": 2,
+  "outputs": [
+    {
+      "amount_satoshis": 96042,
+      "scriptPubKey_len": 22,
+      "scriptPubKey": "0014cc3691d3cdcd9fdc26888a89e14ee08c8f5013c5",
+      "scriptPubKey_decoded": {
+        "hex": "0014cc3691d3cdcd9fdc26888a89e14ee08c8f5013c5",
+        "type": "P2WPKH",
+        "description": "Pay-to-Witness-Public-Key-Hash (native segwit v0) → address tb1qesmfr57dek0acf5g32y7znhq3j84qy79ra3qzn",
+        "addresses": [
+          "tb1qesmfr57dek0acf5g32y7znhq3j84qy79ra3qzn"
+        ],
+        "asm": "OP_0 OP_WITHIN"
+      }
+    },
+    {
+      "amount_satoshis": 10000,
+      "scriptPubKey_len": 22,
+      "scriptPubKey": "0014c2d563e16a0c7ff6a62650e6c9052ca1c3645759",
+      "scriptPubKey_decoded": {
+        "hex": "0014c2d563e16a0c7ff6a62650e6c9052ca1c3645759",
+        "type": "P2WPKH",
+        "description": "Pay-to-Witness-Public-Key-Hash (native segwit v0) → address tb1qct2k8ct2p3lldf3x2rnvjpfv58pkg46e29ggeg",
+        "addresses": [
+          "tb1qct2k8ct2p3lldf3x2rnvjpfv58pkg46e29ggeg"
+        ],
+        "asm": "OP_0 OP_WITHIN"
+      }
+    }
+  ],
+  "witness": [
+    {
+      "index": 0,
+      "stack_items": 2,
+      "items": [
+        {
+          "length": 72,
+          "data": "304502210094a48029ce794f8f6514ca31569f1f8bfa124991544e6019311b1d9291bd247502204875cfecf3b04d186d55dd455248d70bae7738395c0d5f057bbf07c23f0bf0b701"
+        },
+        {
+          "length": 33,
+          "data": "02c4f888e6980154df546314922c3cb88c3b955288488a61e28349d03fb4888220"
+        }
+      ]
+    }
+  ],
+  "locktime": 5075659,
+  "computed_txid": "fab365e08896dbd2b306fefea7c0432b47a1663171629ab295ce5df97c8c7701"
+}

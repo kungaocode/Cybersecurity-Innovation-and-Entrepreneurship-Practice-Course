@@ -1,0 +1,15 @@
+name: ecdsa_lab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - gcc
+  - gxx
+  - cmake
+  - autoconf
+  - automake
+  - libtool
+  - make
+  - pkg-config
