@@ -7,6 +7,43 @@
 
 ---
 
+## 〇、目录结构与文件说明
+
+```
+lab7/
+├── 实验七实验报告.pdf                          # 正式实验报告（18页），含实验目的、环境、Garak/Ollama介绍、
+│                                               #   三种攻击的原理与结果分析、实验总结
+├── experiment_results_summary.md               # 本文件：结果数据摘要，含文件清单、统计数据、攻击案例分析
+├── instructions/                               # 指令与配置文件
+│   ├── instruction.txt                         # 原始测试指令：通过 curl 调用远端 Ollama API 的示例
+│   │                                           #   （GET /api/tags 查看模型列表、POST /api/generate 推理）
+│   └── ollama_remote.json                      # Garak 连接远端 Ollama 的配置文件（host + timeout）
+└── results/                                    # Garak 测评原始输出
+    ├── result_grandma_leakreplay.jsonl         # 社工越狱 + 数据泄露 完整 JSONL 报告（46行）
+    │                                           #   每条记录包含：攻击提示、模型完整响应、检测器判定
+    ├── result_grandma_leakreplay_hitlog.jsonl  # 社工越狱 + 数据泄露 攻击命中日志（35行）
+    │                                           #   仅记录被判定为"攻击成功"的条目，便于快速定位漏洞
+    ├── result_goodside_tag.jsonl               # 提示注入攻击 完整 JSONL 报告（69行）
+    │                                           #   每条记录包含：隐藏Unicode指令、模型响应、检测器判定
+    └── result_goodside_tag.html                # 提示注入攻击 HTML 可视化报告（115行）
+                                                #   浏览器打开可直观查看每条攻击的输入/输出/判定结果
+```
+
+### 文件功能速查表
+
+| 文件 | 类型 | 大小 | 功能说明 |
+|------|------|------|----------|
+| `实验七实验报告.pdf` | PDF | 2.6 MB | 正式实验报告，含所有攻击原理、结果、截图和总结 |
+| `experiment_results_summary.md` | Markdown | 本文件 | 实验结果数据摘要与文件索引 |
+| `instructions/instruction.txt` | 文本 | 206 B | 手动测试远端 Ollama 模型的 curl 命令 |
+| `instructions/ollama_remote.json` | JSON | 89 B | Garak 连接远端 Ollama 的主机地址与超时配置 |
+| `results/result_grandma_leakreplay.jsonl` | JSONL | 502 KB | Grandma 社工越狱 + LeakReplay 数据泄露，每条测试的完整记录 |
+| `results/result_grandma_leakreplay_hitlog.jsonl` | JSONL | 67 KB | 上述测试中攻击成功的条目精选（命中日志） |
+| `results/result_goodside_tag.jsonl` | JSONL | 1.3 MB | Goodside.Tag 提示注入攻击的全部 160 次测试记录 |
+| `results/result_goodside_tag.html` | HTML | 1.7 MB | 提示注入攻击的可视化报告，适合浏览器查看 |
+
+---
+
 ## 一、总体结果
 
 | 测试项目 | 探针 | 检测器 | 测试次数 | 通过 | 失败 | 攻击成功率 | 95% 置信区间 | 运行时间 | 判定 |
